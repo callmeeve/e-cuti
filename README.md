@@ -26,7 +26,7 @@ git clone https://github.com/callmeeve/e-cuti.git
 2. Masuk ke direktori proyek:
 
 ```bash
-cd e-cuti-frontend
+cd e-cuti
 ```
 
 3. Install dependencies:
