@@ -2,6 +2,9 @@
 
 Aplikasi Web E-Cuti (Frontend) aplikasi web yang dibangun menggunakan Vue.js untuk mengelola data karyawan dan cuti karyawan. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, dan mengelola informasi terkait karyawan dan departemen mereka.
 
+![Contoh Gambar](public/screenshot/employee.png)
+![Contoh Gambar](public/screenshot/karyawan.png)
+
 ## Fitur
 
 - Menambah, mengedit, dan menghapus karyawan.
