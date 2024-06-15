@@ -1,9 +1,6 @@
-Berikut adalah contoh `README.md` untuk aplikasi web frontend e-Cuti menggunakan Vue.js:
+# Aplikasi Web E-Cuti (Frontend)
 
-```markdown
-# e-Cuti Frontend
-
-e-Cuti Frontend adalah aplikasi web yang dibangun menggunakan Vue.js untuk mengelola data karyawan dan cuti karyawan. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, dan mengelola informasi terkait karyawan dan departemen mereka.
+Aplikasi Web E-Cuti (Frontend) aplikasi web yang dibangun menggunakan Vue.js untuk mengelola data karyawan dan cuti karyawan. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, dan mengelola informasi terkait karyawan dan departemen mereka.
 
 ## Fitur
 
@@ -24,9 +21,7 @@ e-Cuti Frontend adalah aplikasi web yang dibangun menggunakan Vue.js untuk menge
 
 1. Clone repositori ini:
 
-```bash
-git clone https://github.com/username/e-cuti-frontend.git
-```
+git clone https://github.com/callmeeve/e-cuti.git
 
 2. Masuk ke direktori proyek:
 
@@ -46,76 +41,7 @@ npm install
 npm run dev
 ```
 
-5. Buka browser dan akses `http://localhost:3000`.
-
-## Struktur Proyek
-
-Berikut adalah struktur direktori utama untuk proyek ini:
-
-```plaintext
-e-cuti-frontend/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── CutiTable.vue
-│   │   ├── DepartemenTable.vue
-│   │   └── ...
-│   ├── views/
-│   │   ├── Karyawan.vue
-│   │   ├── AddKaryawan.vue
-│   │   ├── AddDepartemen.vue
-│   │   └── ...
-│   ├── App.vue
-│   ├── main.js
-│   └── router.js
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-```
-
-## Komponen Utama
-
-### CutiTable.vue
-
-Komponen tabel untuk menampilkan daftar karyawan yang sedang cuti. Mendukung pencarian dan pagination.
-
-### DepartemenTable.vue
-
-Komponen tabel untuk menampilkan daftar departemen. Mendukung pencarian dan pagination.
-
-### AddKaryawan.vue
-
-Halaman untuk menambah karyawan baru.
-
-### AddDepartemen.vue
-
-Halaman untuk menambah departemen baru.
-
-## Routing
-
-Konfigurasi routing terdapat di `src/router.js`. Berikut adalah contoh konfigurasi routing:
-
-```javascript
-import { createRouter, createWebHistory } from 'vue-router';
-import Karyawan from './views/Karyawan.vue';
-import AddKaryawan from './views/AddKaryawan.vue';
-import AddDepartemen from './views/AddDepartemen.vue';
-
-const routes = [
-    { path: '/', component: Karyawan },
-    { path: '/karyawan/add', component: AddKaryawan },
-    { path: '/departemen/add', component: AddDepartemen },
-];
-
-const router = createRouter({
-    history: createWebHistory(),
-    routes,
-});
-
-export default router;
-```
+5. Buka browser dan akses `http://localhost:5173`.
 
 ## Tailwind CSS
 
@@ -124,10 +50,3 @@ Proyek ini menggunakan Tailwind CSS untuk styling. Konfigurasi Tailwind terdapat
 ## Kontribusi
 
 Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request atau buka issue untuk diskusi lebih lanjut.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
-```
-
-README ini mencakup deskripsi proyek, fitur, teknologi yang digunakan, langkah instalasi, struktur proyek, dan informasi penting lainnya yang dibutuhkan untuk memulai dan berkontribusi pada proyek. Pastikan untuk menyesuaikan URL repositori dan informasi lainnya sesuai dengan proyek Anda.
